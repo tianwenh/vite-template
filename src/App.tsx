@@ -1,6 +1,10 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Mdx from './mdx.mdx';
+// Code highlighting
+import 'prismjs/themes/prism.css';
+// Normalize default style
+import 'normalize.css';
 
 function App() {
   return (

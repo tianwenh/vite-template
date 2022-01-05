@@ -30,6 +30,20 @@ npm install -D @mdx-js/rollup@next
 - Add mdx to `vite.config.ts`.
 - Update `src/` with mdx demo
 
+### mdx plugins
+
+https://mdxjs.com/guides/
+
+```
+npm install -D remark-gfm remark-frontmatter rehype-slug mdx-prism rehype-autolink-headings
+```
+
+### normalize style
+
+```
+npm install -D normalize.css
+```
+
 ### Router
 
 ```
