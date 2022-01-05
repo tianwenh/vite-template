@@ -1,6 +1,16 @@
 # Vite template
 
-## Init template
+## How to run
+
+```
+git clone <this-repo>
+npm install
+npm run dev
+```
+
+## Set up process
+
+### Init template
 
 https://vitejs.dev/guide/
 
@@ -8,7 +18,7 @@ https://vitejs.dev/guide/
 npm init vite@latest vite-template -- --template react-ts
 ```
 
-## mdx
+### mdx
 
 https://mdxjs.com/packages/rollup/
 
@@ -20,7 +30,7 @@ npm install -D @mdx-js/rollup@next
 - Add mdx to `vite.config.ts`.
 - Update `src/` with mdx demo
 
-## Router
+### Router
 
 ```
 npm install react-router-dom
@@ -28,7 +38,7 @@ npm install react-router-dom
 
 - Update `src/App.tsx` with router
 
-## Eslint
+### Eslint
 
 ```
 npx eslint --init
