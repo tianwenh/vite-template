@@ -6,12 +6,15 @@ import remarkFrontmatter from 'remark-frontmatter';
 import rehypeSlug from 'rehype-slug';
 import rehypePrism from 'mdx-prism';
 import rehypeAutolinkHeadings from 'rehype-autolink-headings';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
 
 export default defineConfig({
   plugins: [
     mdx({
-      remarkPlugins: [remarkGfm, remarkFrontmatter],
+      remarkPlugins: [remarkGfm, remarkFrontmatter, remarkMath],
       rehypePlugins: [
+        rehypeKatex,
         rehypePrism,
         rehypeSlug,
         [
