@@ -4,7 +4,7 @@
 
 ```
 git clone <this-repo>
-npm install
+pnpm i
 npm run dev
 ```
 
